@@ -11,6 +11,8 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
         basePackages = "com.kaplansmicroservice.clients"
 )
 public class CustomerApplication {
+
+    //INFO [customer,5ea041a05da6b846,5ea041a05da6b846] trace and span id
     public static void main(String[] args) {
         SpringApplication.run(CustomerApplication.class, args);
     }
