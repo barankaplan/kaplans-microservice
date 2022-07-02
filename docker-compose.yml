@@ -34,6 +34,14 @@ services:
     ports:
       - "9411:9411"
 
+  rabbitmq:
+    image: rabbitmq:3.9.11-management-alpine
+    container_name: rabbitmq
+    ports:
+      - "5672:5672"
+      #    - host - what application connected to - publis a message
+      - "15672:15672"
+      #   management port
 
 
 networks:
