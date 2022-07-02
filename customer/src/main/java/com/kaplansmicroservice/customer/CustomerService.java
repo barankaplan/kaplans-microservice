@@ -2,9 +2,13 @@ package com.kaplansmicroservice.customer;
 
 import com.kaplansmicroservice.clients.FraudCheckResponse;
 import com.kaplansmicroservice.clients.FraudClient;
+import com.kaplansmicroservice.clients.notification.NotificationClient;
+import com.kaplansmicroservice.clients.notification.NotificationRequest;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
+
+import javax.management.MBeanServerDelegate;
 
 @Service
 @AllArgsConstructor
@@ -12,6 +16,7 @@ public class CustomerService {
 
     private final CustomerRepository customerRepository;
 //    private final RestTemplate restTemplate; no need !
+private final NotificationClient notificationClient;
 
     private final FraudClient fraudClient;
 
@@ -47,6 +52,17 @@ public class CustomerService {
 //        }
 
         // todo: send notification
+
+
+        // todo: make it async. i.e add to queue
+        notificationClient.sendNotification(
+                new NotificationRequest(
+                        customer.getId(),
+                        customer.getEmail(),
+                        String.format("Hi %s, welcome to Kaplans microservie...",
+                                customer.getFirstName())
+                )
+        );
 
     }
 }
