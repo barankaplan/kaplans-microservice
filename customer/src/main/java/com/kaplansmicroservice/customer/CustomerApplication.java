@@ -5,7 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {
+        "com.kaplansmicroservice.customer", "com.kaplansmicroservice.amqp"
+})
 @EnableEurekaClient
 @EnableFeignClients(
         basePackages = "com.kaplansmicroservice.clients"

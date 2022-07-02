@@ -1,5 +1,6 @@
 package com.kaplansmicroservice.customer;
 
+import com.kaplansmicroservice.amqp.RabbitMQMessageProducer;
 import com.kaplansmicroservice.clients.FraudCheckResponse;
 import com.kaplansmicroservice.clients.FraudClient;
 import com.kaplansmicroservice.clients.notification.NotificationClient;
@@ -16,9 +17,13 @@ public class CustomerService {
 
     private final CustomerRepository customerRepository;
 //    private final RestTemplate restTemplate; no need !
-private final NotificationClient notificationClient;
+
+
+//private final NotificationClient notificationClient; no need after rabbitmq
 
     private final FraudClient fraudClient;
+
+    private final RabbitMQMessageProducer rabbitMQMessageProducer;
 
 
     public void registerCustomer(CustomerRegistrationRequest request) {
@@ -55,14 +60,25 @@ private final NotificationClient notificationClient;
 
 
         // todo: make it async. i.e add to queue
-        notificationClient.sendNotification(
-                new NotificationRequest(
-                        customer.getId(),
-                        customer.getEmail(),
-                        String.format("Hi %s, welcome to Kaplans microservie...",
-                                customer.getFirstName())
-                )
+        //no need after rabbitmq
+//        notificationClient.sendNotification(
+//                new NotificationRequest(
+//                        customer.getId(),
+//                        customer.getEmail(),
+//                        String.format("Hi %s, welcome to Kaplans microservie...",
+//                                customer.getFirstName())
+//                )
+//        );
+
+        NotificationRequest notificationRequest = new NotificationRequest(
+                customer.getId(),
+                customer.getEmail(),
+                String.format("Hi %s, welcome to my microservice",
+                        customer.getFirstName())
         );
+        rabbitMQMessageProducer.publish(notificationRequest,"internal.exchange",
+                "internal.notification.routing-key");
+
 
     }
 }

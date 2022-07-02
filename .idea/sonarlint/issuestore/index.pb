@@ -31,8 +31,6 @@ Kcustomer/src/main/java/com/kaplansmicroservice/customer/CustomerConfig.java,e/
 Zclients/src/main/java/com/kaplansmicroservice/clients/notification/NotificationClient.java,5/2/524e7ae9b7859eefca15340f5c4ff41158847cef
 ã
 [notification/src/main/java/com/kaplansmicroservice/notification/NotificationController.java,5/3/5391f32fb99129688286d84ed786d650920c3e4e
-|
-Lcustomer/src/main/java/com/kaplansmicroservice/customer/CustomerService.java,e/6/e6e39ed52f6b275c80b6ad37a9d057f944eac463
 à
 Xnotification/src/main/java/com/kaplansmicroservice/notification/NotificationService.java,1/7/17b201fb07b7f78ca8219b9a7d55c7513b33fd49
 Å
@@ -41,5 +39,3 @@ E
 eureka-server/pom.xml,b/3/b39ae52d769ea03b699b5602439afd875433c8a7
 =
 fraud/pom.xml,d/0/d024669e89b7b66ac8ba07340a73edc6aa228259
-Ä
-Pcustomer/src/main/java/com/kaplansmicroservice/customer/CustomerApplication.java,0/6/0666343ad51490530168b2f5032182ec133a1b11
