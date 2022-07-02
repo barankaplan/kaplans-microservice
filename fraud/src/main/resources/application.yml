@@ -4,9 +4,9 @@ spring:
     application:
         name: fraud
     datasource:
-        password: password
+        password: kaplan
         url: jdbc:postgresql://localhost:5432/fraud
-        username: amigoscode
+        username: barankaplan
     jpa:
         hibernate:
             ddl-auto: create-drop
