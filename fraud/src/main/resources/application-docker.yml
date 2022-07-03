@@ -26,6 +26,6 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     enabled: false
-#  instance:
-#    prefer-ip-address: true
-#    hostname: localhost
+  instance:
+    prefer-ip-address: true
+    hostname: localhost

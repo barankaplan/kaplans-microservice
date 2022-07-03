@@ -1,9 +1,0 @@
-com/kaplansmicroservice/notification/NotificationApplication$Person.class
-com/kaplansmicroservice/notification/rabbitmq/NotificationConsumer.class
-com/kaplansmicroservice/notification/NotificationController.class
-com/kaplansmicroservice/notification/NotificationRepository.class
-com/kaplansmicroservice/notification/NotificationService.class
-com/kaplansmicroservice/notification/NotificationConfiguration.class
-com/kaplansmicroservice/notification/NotificationApplication.class
-com/kaplansmicroservice/notification/Notification$NotificationBuilder.class
-com/kaplansmicroservice/notification/Notification.class

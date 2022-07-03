@@ -1,15 +1,11 @@
 package com.kaplansmicroservice.customer;
 
 import com.kaplansmicroservice.amqp.RabbitMQMessageProducer;
-import com.kaplansmicroservice.clients.FraudCheckResponse;
-import com.kaplansmicroservice.clients.FraudClient;
-import com.kaplansmicroservice.clients.notification.NotificationClient;
+import com.kaplansmicroservice.clients.fraud.FraudCheckResponse;
+import com.kaplansmicroservice.clients.fraud.FraudClient;
 import com.kaplansmicroservice.clients.notification.NotificationRequest;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestTemplate;
-
-import javax.management.MBeanServerDelegate;
 
 @Service
 @AllArgsConstructor
