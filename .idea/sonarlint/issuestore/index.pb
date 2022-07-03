@@ -65,7 +65,3 @@ x
 Hfraud/src/main/java/com/kaplansmicroservice/fraud/FraudCheckHistory.java,b/b/bbd3708f031ec4bb6721e9a2b729399ada66e537
 |
 Lcustomer/src/main/java/com/kaplansmicroservice/customer/CustomerService.java,e/6/e6e39ed52f6b275c80b6ad37a9d057f944eac463
-7
-pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
-B
-docker-compose.yml,3/5/35b8c13cf2eb2a194eada000eb310d65aed53b2a
