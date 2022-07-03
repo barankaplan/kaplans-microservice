@@ -41,15 +41,5 @@ Iamqp/src/main/java/com/kaplansmicroservice/amqp/RabbitMQConfigration.java,5/4/
 Lcustomer/src/main/java/com/kaplansmicroservice/customer/CustomerService.java,e/6/e6e39ed52f6b275c80b6ad37a9d057f944eac463
 ’
 bnotification/src/main/java/com/kaplansmicroservice/notification/rabbitmq/NotificationConsumer.java,b/2/b22ce89d49121211e3d9e4bbb3a286e23ffd5411
-?
-clients/pom.xml,e/8/e897e41994586ab73af075bc072526099d5eec43
-<
-amqp/pom.xml,3/9/39d5bf97f55ed62f85d09f9444dcd78c9eb5188e
-E
-eureka-server/pom.xml,b/3/b39ae52d769ea03b699b5602439afd875433c8a7
 w
 Gapigw/src/main/java/com/kaplansmicroservice/apigw/ApiGWApplication.java,0/d/0d4f6ec8718222ca6d1c66bfa95d58773e4d9050
-=
-fraud/pom.xml,d/0/d024669e89b7b66ac8ba07340a73edc6aa228259
-D
-notification/pom.xml,0/d/0d8056be62f90a93d2bc0b4ea5db519b06028b1e

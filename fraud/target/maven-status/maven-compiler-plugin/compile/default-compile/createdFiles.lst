@@ -1,0 +1,6 @@
+com/kaplansmicroservice/fraud/FraudCheckService.class
+com/kaplansmicroservice/fraud/FraudController.class
+com/kaplansmicroservice/fraud/FraudApplication.class
+com/kaplansmicroservice/fraud/FraudCheckHistoryRepository.class
+com/kaplansmicroservice/fraud/FraudCheckHistory.class
+com/kaplansmicroservice/fraud/FraudCheckHistory$FraudCheckHistoryBuilder.class
