@@ -51,16 +51,12 @@ Gfraud/src/main/java/com/kaplansmicroservice/fraud/FraudApplication.java,e/b/eb
 \notification/src/main/java/com/kaplansmicroservice/notification/NotificationApplication.java,f/0/f0db4ff8576c2b1d14492f47bcdf83b8329c151e
 E
 eureka-server/pom.xml,b/3/b39ae52d769ea03b699b5602439afd875433c8a7
-D
-notification/pom.xml,0/d/0d8056be62f90a93d2bc0b4ea5db519b06028b1e
 =
 fraud/pom.xml,d/0/d024669e89b7b66ac8ba07340a73edc6aa228259
 ?
 clients/pom.xml,e/8/e897e41994586ab73af075bc072526099d5eec43
 <
 amqp/pom.xml,3/9/39d5bf97f55ed62f85d09f9444dcd78c9eb5188e
-7
-pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
 =
 apigw/pom.xml,7/6/769e90cc07d0503e53ff9da3a1e936a2b49abb7c
 @
@@ -73,3 +69,9 @@ x
 Hfraud/src/main/java/com/kaplansmicroservice/fraud/FraudCheckHistory.java,b/b/bbd3708f031ec4bb6721e9a2b729399ada66e537
 |
 Lcustomer/src/main/java/com/kaplansmicroservice/customer/CustomerService.java,e/6/e6e39ed52f6b275c80b6ad37a9d057f944eac463
+7
+pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
+B
+docker-compose.yml,3/5/35b8c13cf2eb2a194eada000eb310d65aed53b2a
+D
+notification/pom.xml,0/d/0d8056be62f90a93d2bc0b4ea5db519b06028b1e
