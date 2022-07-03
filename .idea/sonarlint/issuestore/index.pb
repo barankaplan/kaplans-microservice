@@ -25,10 +25,6 @@ Zclients/src/main/java/com/kaplansmicroservice/clients/notification/Notification
 Xnotification/src/main/java/com/kaplansmicroservice/notification/NotificationService.java,1/7/17b201fb07b7f78ca8219b9a7d55c7513b33fd49
 Å
 Qnotification/src/main/java/com/kaplansmicroservice/notification/Notification.java,8/5/85a30769231593252531285bfbccca1e8e9fdece
-|
-Lamqp/src/main/java/com/kaplansmicroservice/amqp/RabbitMQMessageProducer.java,0/2/0260dfccc6c31dc1df3df596c323d964bb93c481
-y
-Iamqp/src/main/java/com/kaplansmicroservice/amqp/RabbitMQConfigration.java,5/4/54e817e2c9e755d499a888ad4c228da9b419e7c8
 ã
 [clients/src/main/java/com/kaplansmicroservice/clients/notification/NotificationRequest.java,d/8/d8f18cde9652573d5df95214b438383804ab3960
 é
