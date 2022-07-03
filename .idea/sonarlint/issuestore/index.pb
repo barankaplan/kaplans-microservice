@@ -45,17 +45,11 @@ bnotification/src/main/java/com/kaplansmicroservice/notification/rabbitmq/Notifi
 clients/pom.xml,e/8/e897e41994586ab73af075bc072526099d5eec43
 <
 amqp/pom.xml,3/9/39d5bf97f55ed62f85d09f9444dcd78c9eb5188e
-@
-customer/pom.xml,f/0/f04db7a99ce1257e856612bd563cd946a39fac96
 E
 eureka-server/pom.xml,b/3/b39ae52d769ea03b699b5602439afd875433c8a7
-=
-apigw/pom.xml,7/6/769e90cc07d0503e53ff9da3a1e936a2b49abb7c
 w
 Gapigw/src/main/java/com/kaplansmicroservice/apigw/ApiGWApplication.java,0/d/0d4f6ec8718222ca6d1c66bfa95d58773e4d9050
 =
 fraud/pom.xml,d/0/d024669e89b7b66ac8ba07340a73edc6aa228259
-7
-pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
 D
 notification/pom.xml,0/d/0d8056be62f90a93d2bc0b4ea5db519b06028b1e
