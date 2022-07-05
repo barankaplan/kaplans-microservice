@@ -33,8 +33,6 @@ Qnotification/src/main/java/com/kaplansmicroservice/notification/Notification.ja
 bnotification/src/main/java/com/kaplansmicroservice/notification/rabbitmq/NotificationConsumer.java,b/2/b22ce89d49121211e3d9e4bbb3a286e23ffd5411
 w
 Gapigw/src/main/java/com/kaplansmicroservice/apigw/ApiGWApplication.java,0/d/0d4f6ec8718222ca6d1c66bfa95d58773e4d9050
-u
-Ecustomer/src/main/java/com/kaplansmicroservice/customer/Customer.java,7/6/76a24c7087d92ba01a815f665fc61ca22366725a
 ˆ
 Xcustomer/src/main/java/com/kaplansmicroservice/customer/CustomerRegistrationRequest.java,2/9/29175e7e5fed20dbd21f23cffd81b02045f5a827
 €
@@ -65,3 +63,9 @@ x
 Hfraud/src/main/java/com/kaplansmicroservice/fraud/FraudCheckHistory.java,b/b/bbd3708f031ec4bb6721e9a2b729399ada66e537
 |
 Lcustomer/src/main/java/com/kaplansmicroservice/customer/CustomerService.java,e/6/e6e39ed52f6b275c80b6ad37a9d057f944eac463
+D
+notification/pom.xml,0/d/0d8056be62f90a93d2bc0b4ea5db519b06028b1e
+y
+Iamqp/src/main/java/com/kaplansmicroservice/amqp/RabbitMQConfigration.java,5/4/54e817e2c9e755d499a888ad4c228da9b419e7c8
+|
+Lamqp/src/main/java/com/kaplansmicroservice/amqp/RabbitMQMessageProducer.java,0/2/0260dfccc6c31dc1df3df596c323d964bb93c481
