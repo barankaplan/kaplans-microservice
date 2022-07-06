@@ -14,10 +14,10 @@ spec:
     spec:
       containers:
         - name: notification
-          image: kaplan89/notification:latest
+          image: kaplan89/notification:1.2.1
           imagePullPolicy: Always
           ports:
-            - containerPort: 8083
+            - containerPort: 8082
           env:
             - name: SPRING_PROFILES_ACTIVE
               value: kube
