@@ -1,6 +1,4 @@
 
-9
-	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 
 Ocustomer/src/main/java/com/kaplansmicroservice/customer/FraudCheckResponse.java,5/b/5b7016173ba04e8cb4d251e281371e72a7874409
 y
