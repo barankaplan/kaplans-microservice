@@ -1,0 +1,4 @@
+com/kaplansmicroservice/clients/notification/NotificationRequest.class
+com/kaplansmicroservice/clients/fraud/FraudClient.class
+com/kaplansmicroservice/clients/notification/NotificationClient.class
+com/kaplansmicroservice/clients/fraud/FraudCheckResponse.class
