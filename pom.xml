@@ -195,11 +195,10 @@
                 <plugin>
                     <groupId>com.google.cloud.tools</groupId>
                     <artifactId>jib-maven-plugin</artifactId>
-                    <version>3.1.4</version>
+                    <version>3.2.0</version>
                     <configuration>
                         <from>
-                            
-                            <image>eclipse-temurin:17@sha256:2b47a8ea946ce1e5365a1562414ed576e378b7b670cadff3fb98ebecf2890cdc</image>
+                            <image>eclipse-temurin:17@sha256:0e8e95667c7fb04873d58d2cf773f47ba0b281b9b95538fc7685679f8aba7e02</image>
                             <platforms>
                                 <platform>
                                     <architecture>arm64</architecture>
