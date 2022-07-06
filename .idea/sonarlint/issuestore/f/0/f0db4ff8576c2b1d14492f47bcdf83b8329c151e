@@ -1,11 +1,0 @@
-
-]	java:S125"<This block of commented-out lines of code should be removed.(Áòƒüÿÿÿÿ8Õ‡Õœ0
-N
-java:S1602#",Remove useless curly braces around statement(Ø”œõıÿÿÿÿ8Ö‡Õœ0
->
-java:S1116*"Remove this empty statement.(¶åŒÿøÿÿÿÿ8Ü‡Õœ0
-O
-java:S1128	"-Remove this unused import 'java.util.Locale'.(åğ×±ûÿÿÿÿ8İ‡Õœ0
-Z
-java:S1128
-"8Remove this unused import 'java.util.function.Consumer'.(Ì†ƒÔùÿÿÿÿ8Ş‡Õœ0
