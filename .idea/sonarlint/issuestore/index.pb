@@ -79,3 +79,19 @@ Gfraud/src/main/java/com/kaplansmicroservice/fraud/FraudApplication.java,e/b/eb
 Pcustomer/src/main/java/com/kaplansmicroservice/customer/CustomerApplication.java,0/6/0666343ad51490530168b2f5032182ec133a1b11
 B
 docker-compose.yml,3/5/35b8c13cf2eb2a194eada000eb310d65aed53b2a
+a
+1k8s/minikube/services/notification/deployment.yml,d/c/dccc73a97e3e3e2f43da881e27ca4e906accd48e
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+]
+-k8s/minikube/services/customer/deployment.yml,4/3/437e10bde4754f718d85cf3c0bf8ea7fb0127d48
+7
+pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
+Z
+*k8s/minikube/services/customer/service.yml,e/d/edcdcdca78158198e3c15e1a14d4284cdb45046f
+W
+'k8s/minikube/services/fraud/service.yml,0/b/0b34ddf6911ba8e105f6182f14fbeceaa56ce62a
+Z
+*k8s/minikube/services/fraud/deployment.yml,d/6/d6cdd77751bcd396d19ef12321e88f97e4f0d201
+^
+.k8s/minikube/services/notification/service.yml,c/a/ca36237f1b8d0aa39d7610f3f4b949ccbe6ab12b
