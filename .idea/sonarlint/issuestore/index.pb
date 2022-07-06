@@ -77,7 +77,5 @@ w
 Gfraud/src/main/java/com/kaplansmicroservice/fraud/FraudApplication.java,e/b/eb40327baff1dfb595be3f9e2cf4222303f68a4e
 €
 Pcustomer/src/main/java/com/kaplansmicroservice/customer/CustomerApplication.java,0/6/0666343ad51490530168b2f5032182ec133a1b11
-7
-pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
 B
 docker-compose.yml,3/5/35b8c13cf2eb2a194eada000eb310d65aed53b2a
