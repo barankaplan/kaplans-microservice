@@ -35,10 +35,6 @@ Xcustomer/src/main/java/com/kaplansmicroservice/customer/CustomerRegistrationReq
 ]eureka-server/src/main/java/com/kaplansmicroservice/eurekaserver/EurekaServerApplication.java,2/d/2d1d6c18e8a373824bcade9cefd32dcd47269cfb
 E
 eureka-server/pom.xml,b/3/b39ae52d769ea03b699b5602439afd875433c8a7
-=
-fraud/pom.xml,d/0/d024669e89b7b66ac8ba07340a73edc6aa228259
-?
-clients/pom.xml,e/8/e897e41994586ab73af075bc072526099d5eec43
 <
 amqp/pom.xml,3/9/39d5bf97f55ed62f85d09f9444dcd78c9eb5188e
 =
@@ -65,8 +61,6 @@ Z
 +k8s/minikube/bootstrap/postgres/service.yml,6/1/61fb9f2c4d035b46807d37bf3fda3a2a5dec6f06
 ]
 -k8s/minikube/bootstrap/postgres/configmap.yml,7/b/7b6a63a00a630d8862bdeade177ab17fc2741a0a
-_
-/k8s/minikube/bootstrap/postgres/statefulset.yml,e/4/e4ea6c16d3e32ddb0830e83a319fd0652a419a06
 |
 Lclients/src/main/java/com/kaplansmicroservice/clients/fraud/FraudClient.java,0/6/0666b6f7fff5925346cd1810b06b7ffad8dcb565
 Š
@@ -77,21 +71,11 @@ w
 Gfraud/src/main/java/com/kaplansmicroservice/fraud/FraudApplication.java,e/b/eb40327baff1dfb595be3f9e2cf4222303f68a4e
 €
 Pcustomer/src/main/java/com/kaplansmicroservice/customer/CustomerApplication.java,0/6/0666343ad51490530168b2f5032182ec133a1b11
-B
-docker-compose.yml,3/5/35b8c13cf2eb2a194eada000eb310d65aed53b2a
 a
 1k8s/minikube/services/notification/deployment.yml,d/c/dccc73a97e3e3e2f43da881e27ca4e906accd48e
-9
-	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-]
--k8s/minikube/services/customer/deployment.yml,4/3/437e10bde4754f718d85cf3c0bf8ea7fb0127d48
-7
-pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
 Z
 *k8s/minikube/services/customer/service.yml,e/d/edcdcdca78158198e3c15e1a14d4284cdb45046f
 W
 'k8s/minikube/services/fraud/service.yml,0/b/0b34ddf6911ba8e105f6182f14fbeceaa56ce62a
 Z
 *k8s/minikube/services/fraud/deployment.yml,d/6/d6cdd77751bcd396d19ef12321e88f97e4f0d201
-^
-.k8s/minikube/services/notification/service.yml,c/a/ca36237f1b8d0aa39d7610f3f4b949ccbe6ab12b
